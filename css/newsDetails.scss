@@ -1,0 +1,19 @@
+$black:#333333;
+.newsTop{
+    width: 100%;
+    .title{
+        width: 100%;
+        text-align: center;
+        p{
+            font-size:0.32rem;
+            color: $black;
+        }
+    }
+    .date{
+        text-align: center;
+        p{
+            font-size: 0.2rem;
+            color: #888888;
+        }
+    }
+}

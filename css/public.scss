@@ -1,3 +1,58 @@
+@font-face{
+    font-family: 'din';
+    src: url('../fonts/din.otf');
+}
+.bigTitle{
+    width: 100%;
+    padding: 0.2rem 0;
+    ul:nth-child(1){
+        font-size: 0.5rem;
+        line-height: 0.5rem;
+        color: #dddddd;
+        text-align: center;
+        font-family: 'din';
+        span{
+            position: relative;
+        }
+        span::after,span::before{
+            position: absolute;
+            content: "";
+            right: -0.42rem;
+            width: 0.3rem;
+            top: 50%;
+            display: block;
+            border-bottom: 1px solid #dddddd;
+        }
+        span::before{
+            right: auto;
+            left: -0.42rem;
+        }
+    }
+    ul li:nth-child(2){
+        p{
+            font-size: 0.14rem;
+            line-height: 0.36rem;
+            text-align: center;
+            font-weight: lighter;
+            color: #1471c2;
+        }
+        
+    }
+    ul li:nth-child(3){
+        p{
+            font-size: 0.32rem;
+            font-weight: bolder;
+            text-align: center;
+            color: #1471c2;
+            line-height: 0.4rem;
+        }
+        
+    }
+}
+.bodyBox{
+    width: 94.67%;
+    margin: 0 auto;
+}
 .clearfloat:after {
   display: block;
   clear: both;
