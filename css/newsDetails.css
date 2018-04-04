@@ -1,0 +1,15 @@
+.newsTop {
+  width: 100%; }
+  .newsTop .title {
+    width: 100%;
+    text-align: center; }
+    .newsTop .title p {
+      font-size: 0.32rem;
+      color: #333333; }
+  .newsTop .date {
+    text-align: center; }
+    .newsTop .date p {
+      font-size: 0.2rem;
+      color: #888888; }
+
+/*# sourceMappingURL=newsDetails.css.map */

@@ -1,0 +1,70 @@
+#banner {
+  width: 100%; }
+  #banner > img {
+    width: 100%; }
+
+#contactUs {
+  padding: 0.5rem 0; }
+  #contactUs .contactContent {
+    width: 91.33%;
+    margin: 0 auto;
+    color: #333333;
+    text-align: justify;
+    font-size: 0.24rem;
+    line-height: 0.5rem; }
+  #contactUs .methods {
+    margin-top: 0.2rem; }
+  #contactUs .methodsBox:nth-child(1) {
+    border-top: 1px solid #e4e4e4; }
+  #contactUs .methodsBox {
+    padding: 0.3rem 0;
+    border-bottom: 1px solid #e4e4e4;
+    position: relative; }
+    #contactUs .methodsBox .mbLeft {
+      width: 1.2rem;
+      height: 1.2rem;
+      border: 1px solid #e4e4e4;
+      margin-left: 0.1rem;
+      border-radius: 0.08rem;
+      background: url(../img/contact02.png) no-repeat center center;
+      background-size: auto 0.74rem;
+      background-color: #f6f6f6; }
+    #contactUs .methodsBox .mbTime {
+      background-image: url(../img/contact03.png); }
+    #contactUs .methodsBox .mbAddress {
+      background-image: url(../img/contact04.png); }
+    #contactUs .methodsBox .mbRight {
+      position: absolute;
+      left: 23.5%;
+      top: 0;
+      width: 70%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      display: -webkit-flex;
+      -webkit-align-items: center;
+      -webkit-justify-content: center;
+      -webkit-flex-direction: column; }
+      #contactUs .methodsBox .mbRight ul {
+        width: 100%; }
+      #contactUs .methodsBox .mbRight ul li p {
+        width: 100%;
+        line-height: 0.5rem; }
+      #contactUs .methodsBox .mbRight ul li:nth-child(1) p {
+        font-size: 0.3rem;
+        color: #333333;
+        font-weight: bold; }
+      #contactUs .methodsBox .mbRight ul li:nth-child(2) p {
+        font-size: 0.24rem;
+        color: #888888; }
+        #contactUs .methodsBox .mbRight ul li:nth-child(2) p a {
+          display: inline;
+          color: #888888; }
+
+#companyMap {
+  height: 5.3rem;
+  margin: 0.6rem auto 0.3rem; }
+
+/*# sourceMappingURL=contact.css.map */
