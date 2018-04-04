@@ -1,3 +1,15 @@
+.bottom-btn {
+  font-size: 0;
+  margin-top: 0.45rem; }
+  .bottom-btn button {
+    display: block;
+    margin: 0 auto;
+    font-size: 0.28rem;
+    color: #888888;
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+    padding: 0.25rem 1.6rem; }
+
 .content #list1 {
   width: 100%; }
   .content #list1 .swiper-wrapper .swiper-slide a {
@@ -11,5 +23,113 @@
   .content #list1 .swiper-pagination .swiper-pagination-bullet-active {
     width: 8px;
     height: 8px; }
+.content .list2 {
+  margin-bottom: 1rem; }
+  .content .list2 .l2-content {
+    width: 100%; }
+    .content .list2 .l2-content .row {
+      width: 100%;
+      padding: 0.15rem;
+      margin-bottom: 0.1rem; }
+      .content .list2 .l2-content .row > div {
+        float: left;
+        width: 45%;
+        padding: 0 0.1rem; }
+        .content .list2 .l2-content .row > div > a {
+          display: block;
+          padding: 0.4rem 0 0 0;
+          border: 1px solid #f6f6f6; }
+          .content .list2 .l2-content .row > div > a > div:first-child {
+            margin-bottom: 0.5rem; }
+            .content .list2 .l2-content .row > div > a > div:first-child img {
+              width: 60%;
+              margin: 0 auto; }
+          .content .list2 .l2-content .row > div > a > div:last-child {
+            background-color: #f6f6f6;
+            padding: 0.2rem  0; }
+            .content .list2 .l2-content .row > div > a > div:last-child > div {
+              text-align: center; }
+            .content .list2 .l2-content .row > div > a > div:last-child > div:first-child {
+              font-size: 0.28rem;
+              color: #333333; }
+            .content .list2 .l2-content .row > div > a > div:last-child > div:last-child {
+              font-size: 0.24rem;
+              color: #888888; }
+.content .list3 {
+  margin-bottom: 1rem; }
+  .content .list3 .l3-content {
+    margin: 0 0.25rem;
+    background-color: #f6f6f6; }
+    .content .list3 .l3-content > div:first-child img {
+      width: 100%; }
+    .content .list3 .l3-content > div:last-child {
+      margin-top: 0.5rem; }
+      .content .list3 .l3-content > div:last-child > div:first-child {
+        font-size: 0.3rem;
+        color: #333333;
+        text-align: center;
+        position: relative;
+        margin-bottom: 0.1rem; }
+      .content .list3 .l3-content > div:last-child > div:first-child::after {
+        display: block;
+        content: '';
+        background-color: #888888;
+        position: absolute;
+        top: 50%;
+        right: 1.7rem;
+        width: 0.3rem;
+        height: 5%; }
+      .content .list3 .l3-content > div:last-child > div:first-child::before {
+        display: block;
+        content: '';
+        background-color: #888888;
+        position: absolute;
+        top: 50%;
+        left: 1.7rem;
+        width: 0.3rem;
+        height: 5%; }
+      .content .list3 .l3-content > div:last-child > div:last-child {
+        font-size: 0; }
+        .content .list3 .l3-content > div:last-child > div:last-child p {
+          font-size: 0.24rem;
+          color: #333333;
+          text-align: justify;
+          line-height: 0.5rem;
+          padding: 0.15rem 0.4rem 0.4rem 0.4rem; }
+.content .list4 {
+  margin: 0 0.25rem 1rem 0.25rem; }
+  .content .list4 .l4-content .slide {
+    position: relative;
+    background-color: #f6f6f6;
+    margin-bottom: 0.2rem; }
+    .content .list4 .l4-content .slide a {
+      display: block; }
+      .content .list4 .l4-content .slide a > div {
+        float: left; }
+      .content .list4 .l4-content .slide a > div:first-child {
+        width: 36%; }
+        .content .list4 .l4-content .slide a > div:first-child img {
+          width: 100%; }
+      .content .list4 .l4-content .slide a > div:last-child {
+        width: 51%;
+        position: absolute;
+        top: 0.25rem;
+        left: 2.9rem;
+        height: 100%; }
+        .content .list4 .l4-content .slide a > div:last-child > div:first-child {
+          font-size: 0.3rem;
+          color: #333333;
+          margin-bottom: 0.1rem; }
+        .content .list4 .l4-content .slide a > div:last-child > div:nth-child(2) {
+          margin-bottom: 0.1rem;
+          font-size: 0; }
+          .content .list4 .l4-content .slide a > div:last-child > div:nth-child(2) p {
+            font-size: 0.24rem;
+            color: #555555;
+            line-height: 0.4rem;
+            text-align: justify; }
+        .content .list4 .l4-content .slide a > div:last-child > div:nth-child(3) {
+          font-size: 0.24rem;
+          color: #888888; }
 
 /*# sourceMappingURL=index.css.map */

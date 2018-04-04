@@ -8,6 +8,9 @@
 .clearfloat {
   zoom: 1; }
 
+body {
+  overflow-x: hidden !important; }
+
 .header {
   width: 100%;
   background-color: #f6f6f6;
@@ -41,5 +44,47 @@
         top: 0.16rem; }
       .header .head2 > div > span:nth-child(3) {
         top: 0.32rem; }
+
+.footer {
+  background-color: #333333; }
+  .footer > div:first-child {
+    padding: 0.7rem 0.4rem;
+    position: relative; }
+    .footer > div:first-child > div:first-child {
+      position: absolute;
+      top: 50%;
+      margin-top: -13%;
+      left: 0.2rem; }
+      .footer > div:first-child > div:first-child > div:first-child {
+        width: 1.8rem;
+        height: 1.8rem; }
+        .footer > div:first-child > div:first-child > div:first-child img {
+          width: 95%;
+          display: block;
+          margin: auto; }
+      .footer > div:first-child > div:first-child > div:last-child {
+        font-size: 0.2rem;
+        color: #999999;
+        text-align: center; }
+    .footer > div:first-child > div:last-child {
+      float: right; }
+      .footer > div:first-child > div:last-child > div:first-child {
+        margin-bottom: 0.2rem; }
+        .footer > div:first-child > div:last-child > div:first-child > div:first-child {
+          font-size: 0.46rem;
+          color: #ffffff; }
+        .footer > div:first-child > div:last-child > div:first-child > div:last-child {
+          font-size: 0.14rem;
+          color: #999999; }
+      .footer > div:first-child > div:last-child > div {
+        font-size: 0.22rem;
+        color: #999999;
+        margin-bottom: 0.02rem; }
+  .footer > div:last-child {
+    font-size: 0.2rem;
+    color: #666666;
+    text-align: center;
+    padding: 0.2rem 0;
+    border-top: 1px solid #555555; }
 
 /*# sourceMappingURL=public.css.map */
