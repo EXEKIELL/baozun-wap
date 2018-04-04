@@ -1,0 +1,45 @@
+.clearfloat:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0; }
+
+.clearfloat {
+  zoom: 1; }
+
+.header {
+  width: 100%;
+  background-color: #f6f6f6;
+  position: relative; }
+  .header .head1 {
+    float: left;
+    width: 45%;
+    padding: 0.4rem 0.22rem; }
+    .header .head1 img {
+      width: 100%; }
+  .header .head2 {
+    position: absolute;
+    font-size: 0;
+    top: 50%;
+    margin-top: -2.4%;
+    right: 0.22rem;
+    width: 0.4rem;
+    height: 0.4rem; }
+    .header .head2 > div {
+      position: relative;
+      width: 100%;
+      height: 100%; }
+      .header .head2 > div span {
+        width: 100%;
+        height: 0.04rem;
+        background-color: #888888;
+        position: absolute;
+        top: 0;
+        right: 0; }
+      .header .head2 > div > span:nth-child(2) {
+        top: 0.16rem; }
+      .header .head2 > div > span:nth-child(3) {
+        top: 0.32rem; }
+
+/*# sourceMappingURL=public.css.map */

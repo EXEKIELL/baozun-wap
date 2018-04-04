@@ -1,0 +1,26 @@
+.content{
+  #list1{
+    width: 100%;
+    .swiper-wrapper{
+      .swiper-slide{
+        a{
+          display: inline-block;
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+    .swiper-pagination{
+      .swiper-pagination-bullet{
+        background-color: #fff;
+        width: 5px;
+        height: 5px;
+      }
+      .swiper-pagination-bullet-active{
+        width: 8px;
+        height: 8px;
+      }
+    }
+  }
+}
