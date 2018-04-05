@@ -27,12 +27,14 @@
     .swiper-pagination{
       .swiper-pagination-bullet{
         background-color: #fff;
-        width: 5px;
-        height: 5px;
+        width: 4px;
+        height: 4px;
       }
       .swiper-pagination-bullet-active{
         width: 8px;
         height: 8px;
+        position: relative;
+        top: 2px;
       }
     }
   }
@@ -63,6 +65,7 @@
               margin-bottom: 0.5rem;
               img{
                 width: 60%;
+                height: 3rem;
                 margin: 0 auto;
               }
             }
@@ -167,6 +170,9 @@
               font-size: 0.3rem;
               color: #333333;
               margin-bottom: 0.1rem;
+              white-space: nowrap;
+              text-overflow:ellipsis;
+              overflow:hidden;
             }
             >div:nth-child(2){
               margin-bottom: 0.1rem;
