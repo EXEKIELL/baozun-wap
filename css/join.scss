@@ -1,9 +1,16 @@
 $black:#333333;
+#banner{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
 .searchBox{
     height: 1.0rem;
     border: 1px solid #c8c8c8;
     border-radius: 0.08rem;
     position: relative;
+    margin-top: 0.2rem;
     input{
         width: 73%;
         margin-left: 4%;
@@ -183,11 +190,13 @@ $black:#333333;
     .apply{
         border-top: 1px solid #E4E4E4;
         
-        button{
+        a{
             display: block;
             width: 4.0rem;
             height: 0.9rem;
             font-size: 0.3rem;
+            text-align: center;
+            line-height: 0.9rem;
             margin: 0.6rem auto 0.8rem;
             border: 0;
             color: white;
