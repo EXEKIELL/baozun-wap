@@ -38,6 +38,9 @@
         color: #ffffff;
         background-color: #1471c2;
       }
+      a.sel::after{
+        border-right: 0;
+      }
     }
   }
 }

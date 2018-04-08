@@ -32,5 +32,7 @@
     .content .list1 > div a.sel {
       color: #ffffff;
       background-color: #1471c2; }
+    .content .list1 > div a.sel::after {
+      border-right: 0; }
 
 /*# sourceMappingURL=aboutPublic.css.map */
