@@ -1,0 +1,197 @@
+$black:#333333;
+.searchBox{
+    height: 1.0rem;
+    border: 1px solid #c8c8c8;
+    border-radius: 0.08rem;
+    position: relative;
+    input{
+        width: 73%;
+        margin-left: 4%;
+        display: block;
+        height: 1.0rem;
+        border: 0;
+        color: $black;
+        font-size: 0.3rem;
+    }
+    input::-moz-placeholder{
+        color: #888888;
+    }
+    input::-ms-input-placeholder{
+        color: #888888;
+    }
+    input::-webkit-input-placeholder{
+        color: #888888;
+    }
+    button{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 1.0rem;
+        height: 1.0rem;
+        display: block;
+        background: url(../img/join02.png) no-repeat center center;
+        background-size: 0.47rem;
+    }
+    a{
+        position: absolute;
+        display: none;
+        top: 0;
+        right: 1.1rem;
+        width: 0.4rem;
+        height: 1.0rem;
+        background: url(../img/close.png) no-repeat center center;
+        background-size: 80%;
+    }
+}
+.jobList{
+    margin-top: 0.4rem;
+    .jobChild:nth-child(1){
+        border-top: 1px solid #e4e4e4;
+    }
+    .jobChild{
+        border-bottom: 1px solid #e4e4e4;
+        padding: 0.35rem 0;
+        display: block;
+        position: relative;
+        .jobLeft{
+            width: 80%;
+            ul li:nth-child(1){
+                font-size: 0.3rem;
+                color: $black;
+                line-height: 0.45rem;
+                font-weight: bold;
+                p{
+                    text-indent: 0.54rem;
+                    background: url(../img/join03.png) no-repeat 0.2rem center;
+                    background-size: 0.22rem auto;
+                }
+            }
+            ul li:nth-child(2){
+                font-size: 0.24rem;
+                line-height: 0.45rem;
+                color: #555555;
+                p{
+                    text-indent: 0.54rem;
+                    overflow: hidden;
+                    text-overflow:ellipsis;
+                    white-space: nowrap;
+                }
+            }
+        }
+        .jobRight{
+            position: absolute;
+            right: 0.2rem;
+            top: 50%;
+            margin-top: -0.2rem;
+            p{
+                width: 1.0rem;
+                height: 0.4rem;
+                border-radius: 0.2rem;
+                color: #888888;
+                font-size: 0.2rem;
+                line-height: 0.4rem;
+                border-radius: 0.2rem;
+                text-align: center;
+                border:1px solid #c8c8c8;
+            }
+        }
+    }
+}
+.bottom-btn {
+    font-size: 0;
+    margin-top: 0.6rem;
+    button {
+        display: block;
+        margin: 0 auto;
+        font-size: 0.28rem;
+        color: #888888;
+        background-color: #fff;
+        border: 1px solid #e4e4e4;
+        padding: 0.25rem 1.6rem;
+    }
+}
+#join{
+    padding: 0.5rem 0 0.8rem;
+}
+#joinDetails{
+    .jdTop{
+        border-bottom: 1px solid #e4e4e4;
+        padding: 0.3rem 0;
+        .joinTop{
+            font-size: 0.3rem;
+            text-indent: 0.3rem;
+            line-height: 0.45rem;
+            font-weight: bold;
+            color: $black;
+        }
+        .joinBottom{
+            margin-left: 0.3rem;
+            font-size: 0.24rem;
+            line-height: 0.45rem;
+            >div{
+                margin-right: 0.45rem;
+                p{
+                    text-indent: 0.3rem;
+                    background: url(../img/join03.png) no-repeat left center;
+                    background-size: auto 0.22rem;
+                }
+            }
+            >div:nth-child(2){
+                p{
+                    background-image: url(../img/join04.png);
+                    background-size: auto 0.24rem;
+                }
+            }
+            >div:nth-child(3){
+                p{
+                    background-image: url(../img/join05.png);
+                    background-size: auto 0.24rem;
+                }
+            }
+        }
+    }
+    .jdbBox{
+        padding: 0.2rem 0;
+    }
+    .jdBottom{
+        width: 91.33%;
+        margin: 0.2rem auto;
+        .jdbTitle{
+            font-size: 0.28rem;
+            line-height: 0.6rem;
+            color: $black;
+            font-weight: bold;
+        }
+        .jdbContent{
+            font-size: 0.26rem;
+            color: #555555;
+            line-height: 0.5rem;
+            p{
+                text-align: justify;
+            }
+            >div{
+                p:nth-child(1){
+                    width: 22.8%;
+                }
+                p:nth-child(2){
+                    width: 77.2%;
+                }
+            }
+            
+        }
+    }
+    .apply{
+        border-top: 1px solid #E4E4E4;
+        
+        button{
+            display: block;
+            width: 4.0rem;
+            height: 0.9rem;
+            font-size: 0.3rem;
+            margin: 0.6rem auto 0.8rem;
+            border: 0;
+            color: white;
+            background-color: #1471c2;
+        }
+    }
+}

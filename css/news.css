@@ -1,0 +1,57 @@
+#news {
+  padding: 0.5rem 0 0.8rem; }
+  #news .newsList {
+    margin-top: 0.2rem; }
+    #news .newsList .newsBox {
+      display: block;
+      position: relative;
+      margin-bottom: 0.4rem; }
+      #news .newsList .newsBox img {
+        width: 100%; }
+      #news .newsList .newsBox .content {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #f6f6f6;
+        width: 100%;
+        padding: 0.3rem 0 0.4rem; }
+        #news .newsList .newsBox .content ul {
+          margin: 0 0.45rem 0 0.3rem; }
+          #news .newsList .newsBox .content ul li:nth-child(1) {
+            font-size: 0.3rem;
+            color: #333333;
+            line-height: 0.6rem;
+            font-weight: bold; }
+          #news .newsList .newsBox .content ul li:nth-child(2) {
+            font-size: 0.24rem;
+            color: #666666;
+            line-height: 0.4rem; }
+            #news .newsList .newsBox .content ul li:nth-child(2) p {
+              width: 67.6%;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap; }
+          #news .newsList .newsBox .content ul li:nth-child(3) {
+            font-size: 0.24rem;
+            color: #888888;
+            line-height: 0.4rem; }
+            #news .newsList .newsBox .content ul li:nth-child(3) p:nth-child(2) {
+              width: 1.0rem;
+              border: 1px solid #c8c8c8;
+              font-size: 0.2rem;
+              border-radius: 0.4rem;
+              line-height: 0.4rem;
+              text-align: center; }
+  #news .bottom-btn {
+    font-size: 0;
+    margin-top: 0.6rem; }
+    #news .bottom-btn button {
+      display: block;
+      margin: 0 auto;
+      font-size: 0.28rem;
+      color: #888888;
+      background-color: #fff;
+      border: 1px solid #e4e4e4;
+      padding: 0.25rem 1.6rem; }
+
+/*# sourceMappingURL=news.css.map */
