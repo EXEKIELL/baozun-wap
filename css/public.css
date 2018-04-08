@@ -55,14 +55,29 @@ body {
 
 .header {
   width: 100%;
+  height: 1.2rem;
   background-color: #f6f6f6;
   position: relative; }
   .header .head1 {
-    float: left;
-    width: 45%;
-    padding: 0.4rem 0.22rem; }
-    .header .head1 img {
-      width: 100%; }
+    position: absolute;
+    top: 50%;
+    margin-top: -2.5%;
+    left: 0.3rem;
+    height: 0.4rem;
+    z-index: 100; }
+    .header .head1 a {
+      display: block;
+      height: 100%; }
+      .header .head1 a img {
+        height: 100%; }
+  .header .head-title {
+    text-align: center;
+    font-size: 0.36rem;
+    color: #333333;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -3%; }
   .header .head2 {
     position: absolute;
     font-size: 0;
@@ -70,22 +85,14 @@ body {
     margin-top: -2.4%;
     right: 0.22rem;
     width: 0.4rem;
-    height: 0.4rem; }
+    height: 0.4rem;
+    z-index: 100; }
     .header .head2 > div {
       position: relative;
       width: 100%;
       height: 100%; }
-      .header .head2 > div span {
-        width: 100%;
-        height: 0.04rem;
-        background-color: #888888;
-        position: absolute;
-        top: 0;
-        right: 0; }
-      .header .head2 > div > span:nth-child(2) {
-        top: 0.16rem; }
-      .header .head2 > div > span:nth-child(3) {
-        top: 0.32rem; }
+      .header .head2 > div img {
+        width: 100%; }
 
 .footer {
   background-color: #333333; }
@@ -95,11 +102,11 @@ body {
     .footer > div:first-child > div:first-child {
       position: absolute;
       top: 50%;
-      margin-top: -13%;
-      left: 0.2rem; }
+      margin-top: -11%;
+      left: 0.3rem; }
       .footer > div:first-child > div:first-child > div:first-child {
-        width: 1.8rem;
-        height: 1.8rem; }
+        width: 1.6rem;
+        height: 1.6rem; }
         .footer > div:first-child > div:first-child > div:first-child img {
           width: 95%;
           display: block;
@@ -111,10 +118,11 @@ body {
     .footer > div:first-child > div:last-child {
       float: right; }
       .footer > div:first-child > div:last-child > div:first-child {
-        margin-bottom: 0.2rem; }
+        margin-bottom: 0.1rem; }
         .footer > div:first-child > div:last-child > div:first-child > div:first-child {
           font-size: 0.46rem;
-          color: #ffffff; }
+          color: #ffffff;
+          margin-bottom: 0.1rem; }
         .footer > div:first-child > div:last-child > div:first-child > div:last-child {
           font-size: 0.14rem;
           color: #999999; }

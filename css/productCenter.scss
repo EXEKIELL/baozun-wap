@@ -1,0 +1,122 @@
+a{
+  display: block;
+}
+.content{
+  .list1{
+    width: 100%;
+    img{
+      width: 100%;
+    }
+  }
+  .list2{
+    background-color: #f6f6f6;
+    .btn-1{
+      border-bottom: 1px solid #e4e4e4;
+      >div{
+        float: left;
+        width: 50%;
+        a{
+          font-size: 0.3rem;
+          color: #333333;
+          text-align: center;
+          padding: 0.3rem 0;
+        }
+      }
+      >div.sel{
+        a{
+          background-color: #1471c2;
+          color: #ffffff;
+        }
+      }
+    }
+    .btn-2{
+      border-bottom: 1px solid #e4e4e4;
+      >div{
+        float: left;
+        width: 33.3%;
+        position: relative;
+        a{
+          font-size: 0.28rem;
+          color: #555555;
+          text-align: center;
+          padding: 0.28rem;
+        }
+      }
+      >div::after{
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        margin-top: -7%;
+        right: 0;
+        height: 40%;
+        border-right: 1px solid #e4e4e4;
+      }
+      >div:last-child::after{
+        border: 0;
+      }
+      >div.sel{
+        a{
+          color: #1471c2;
+        }
+      }
+    }
+  }
+  .list3{
+    margin: 0.5rem 0;
+    .l2-content{
+      width: 100%;
+      .row{
+        width: 100%;
+        padding: 0.15rem;
+        margin-bottom: 0.1rem;
+        >div{
+          float: left;
+          width: 45%;
+          padding: 0 0.1rem;
+          >a{
+            display: block;
+            padding: 0.4rem 0 0 0;
+            border: 1px solid #f6f6f6;
+            >div:first-child{
+              margin-bottom: 0.5rem;
+              img{
+                width: 60%;
+                height: 3rem;
+                margin: 0 auto;
+              }
+            }
+            >div:last-child{
+              background-color: #f6f6f6;
+              padding: 0.2rem  0;
+              >div{
+                text-align: center;
+              }
+              >div:first-child{
+                font-size: 0.28rem;
+                color: #333333;
+              }
+              >div:last-child{
+                font-size: 0.24rem;
+                color: #888888;
+              }
+            }
+          }
+        }
+      }
+    }
+    .bottom-btn{
+      font-size: 0;
+      margin-top: 0.45rem;
+      button{
+        display: block;
+        margin: 0 auto;
+        font-size: 0.28rem;
+        color: #888888;
+        background-color: #fff;
+        border: 1px solid #e4e4e4;
+        padding: 0.25rem 1.6rem;
+      }
+    }
+  }
+}

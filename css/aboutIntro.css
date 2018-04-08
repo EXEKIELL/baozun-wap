@@ -1,0 +1,47 @@
+.content .list2 {
+  padding: 0.25rem;
+  margin-bottom: 0.5rem; }
+  .content .list2 .l2-cont1 {
+    margin-bottom: 0.3rem; }
+    .content .list2 .l2-cont1 > div:first-child img {
+      width: 100%; }
+    .content .list2 .l2-cont1 > div:last-child {
+      margin-top: 0.3rem;
+      padding: 0.1rem;
+      border-bottom: 1px solid #e4e4e4; }
+      .content .list2 .l2-cont1 > div:last-child p {
+        text-align: justify;
+        font-size: 0.26rem;
+        color: #333333;
+        line-height: 0.5rem;
+        margin-bottom: 0.5rem; }
+      .content .list2 .l2-cont1 > div:last-child p:last-child {
+        margin-bottom: 0.3rem; }
+  .content .list2 .l2-cont2 {
+    border-bottom: 1px solid #e4e4e4; }
+    .content .list2 .l2-cont2 > div:first-child img {
+      width: 100%; }
+    .content .list2 .l2-cont2 .l2-title {
+      font-size: 0.32rem;
+      color: #1471c2;
+      padding: 0.3rem  0.1rem; }
+      .content .list2 .l2-cont2 .l2-title > div:first-child {
+        font-weight: bold;
+        margin-bottom: 0.15rem; }
+      .content .list2 .l2-cont2 .l2-title > div:last-child {
+        font-size: 0.24rem; }
+    .content .list2 .l2-cont2 .cont {
+      padding: 0 0.1rem; }
+      .content .list2 .l2-cont2 .cont > p {
+        font-size: 0.26rem;
+        color: #555555;
+        line-height: 0.5rem;
+        text-align: justify;
+        margin-bottom: 0.5rem; }
+        .content .list2 .l2-cont2 .cont > p span:first-child {
+          font-weight: bold; }
+      .content .list2 .l2-cont2 .cont > p:last-child {
+        margin-bottom: 0.2rem;
+        padding-bottom: 0.2rem; }
+
+/*# sourceMappingURL=aboutIntro.css.map */

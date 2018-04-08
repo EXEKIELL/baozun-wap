@@ -1,8 +1,9 @@
 .bottom-btn {
   font-size: 0;
   margin-top: 0.45rem; }
-  .bottom-btn button {
+  .bottom-btn a {
     display: block;
+    width: 12%;
     margin: 0 auto;
     font-size: 0.28rem;
     color: #888888;
@@ -18,11 +19,13 @@
       width: 100%; }
   .content #list1 .swiper-pagination .swiper-pagination-bullet {
     background-color: #fff;
-    width: 5px;
-    height: 5px; }
+    width: 4px;
+    height: 4px; }
   .content #list1 .swiper-pagination .swiper-pagination-bullet-active {
     width: 8px;
-    height: 8px; }
+    height: 8px;
+    position: relative;
+    top: 2px; }
 .content .list2 {
   margin-bottom: 1rem; }
   .content .list2 .l2-content {
@@ -43,6 +46,7 @@
             margin-bottom: 0.5rem; }
             .content .list2 .l2-content .row > div > a > div:first-child img {
               width: 60%;
+              height: 3rem;
               margin: 0 auto; }
           .content .list2 .l2-content .row > div > a > div:last-child {
             background-color: #f6f6f6;
@@ -121,7 +125,10 @@
           .content .list4 .l4-content .slide a > div:last-child > div:first-child {
             font-size: 0.3rem;
             color: #333333;
-            margin-bottom: 0.1rem; }
+            margin-bottom: 0.1rem;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden; }
           .content .list4 .l4-content .slide a > div:last-child > div:nth-child(2) {
             margin-bottom: 0.1rem;
             font-size: 0; }
