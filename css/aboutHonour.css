@@ -32,7 +32,7 @@ body {
           color: #555555;
           border-bottom: 1px dashed #e4e4e4; }
 
-.mask {
+.mask1 {
   position: fixed;
   top: 0;
   left: 0;
@@ -48,34 +48,34 @@ body {
   -webkit-align-items: center;
   -webkit-justify-content: center;
   -webkit-flex-direction: column; }
-  .mask .tan {
+  .mask1 .tan {
     width: 100%; }
-    .mask .tan .slide > div:first-child {
+    .mask1 .tan .slide > div:first-child {
       display: block;
       background-color: #fff;
       width: 90%;
       margin: 0 auto;
       padding-bottom: 0.2rem; }
-      .mask .tan .slide > div:first-child > div:first-child {
+      .mask1 .tan .slide > div:first-child > div:first-child {
         padding: 0.33rem 0; }
-        .mask .tan .slide > div:first-child > div:first-child img {
+        .mask1 .tan .slide > div:first-child > div:first-child img {
           width: 90%;
           margin: auto; }
-      .mask .tan .slide > div:first-child > div:last-child {
+      .mask1 .tan .slide > div:first-child > div:last-child {
         font-size: 0;
         padding-bottom: 0.25rem; }
-        .mask .tan .slide > div:first-child > div:last-child > div {
+        .mask1 .tan .slide > div:first-child > div:last-child > div {
           font-size: 0.24rem;
           color: #888888;
           margin: 0 0.7rem;
           padding: 0.2rem 0; }
-        .mask .tan .slide > div:first-child > div:last-child > div:first-child {
+        .mask1 .tan .slide > div:first-child > div:last-child > div:first-child {
           font-size: 0.36rem;
           color: #555555;
           border-bottom: 1px dashed #e4e4e4; }
-    .mask .tan .slide .fanhui {
+    .mask1 .tan .slide .fanhui {
       background-color: transparent; }
-      .mask .tan .slide .fanhui div {
+      .mask1 .tan .slide .fanhui div {
         border: 1px solid #ffffff;
         margin: 0.3rem auto;
         width: 0.8rem;
@@ -85,7 +85,7 @@ body {
         border-radius: 50%;
         font-size: 0;
         position: relative; }
-        .mask .tan .slide .fanhui div span {
+        .mask1 .tan .slide .fanhui div span {
           position: absolute;
           width: 70%;
           height: 0.02rem;
@@ -94,13 +94,13 @@ body {
           margin-top: -1%;
           left: 50%;
           margin-left: -35%; }
-        .mask .tan .slide .fanhui div span:first-child {
+        .mask1 .tan .slide .fanhui div span:first-child {
           -webkit-transform: rotateZ(45deg);
           -moz-transform: rotateZ(45deg);
           -ms-transform: rotateZ(45deg);
           -o-transform: rotateZ(45deg);
           transform: rotateZ(45deg); }
-        .mask .tan .slide .fanhui div span:last-child {
+        .mask1 .tan .slide .fanhui div span:last-child {
           -webkit-transform: rotateZ(-45deg);
           -moz-transform: rotateZ(-45deg);
           -ms-transform: rotateZ(-45deg);
