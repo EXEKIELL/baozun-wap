@@ -160,5 +160,213 @@
     border: 0;
     color: white;
     background-color: #1471c2; }
-
+#joinApply{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	background-color: rgba(0,0,0,0.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	display: -webkit-flex;
+	-webkit-align-items: center;
+	-webkit-justify-content: center;
+	-webkit-flex-direction: column;
+}
+.joinApply{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.4rem;
+	background: url(../img/joinBack.png) no-repeat left top;
+	background-size: 100% 100%;
+}
+.applyOut{
+	border: 1px solid #c8c8c8;
+	box-sizing: border-box;
+	padding: 0.4rem;
+	position: relative;
+}
+.applyOut ul li{
+	width: 100%;
+	border: 1px solid #c8c8c8 ;
+	height: 0.9rem;
+	background: url(../img/join1.png) no-repeat 0.16rem center;
+	background-size: 0.26rem auto;
+	margin-bottom: 0.2rem;
+}
+.applyOut ul li.choice{
+	border-color: #1471c2;
+	background-image: url(../img/join11.png);
+}
+.applyOut ul li.choice>input::-ms-input-placeholder{
+	color: #1471c2;
+}
+.applyOut ul li.choice>input::-webkit-input-placeholder{
+	color: #1471c2;
+}
+.applyOut ul li.choice>input::-moz-placeholder{
+	color: #1471c2;
+}
+.applyOut ul li:nth-child(2){
+	background-image: url(../img/join2.png);
+}
+.applyOut ul li:nth-child(2).choice{
+	background-image: url(../img/join22.png);
+}
+.applyOut ul li>input{
+	display: block;
+	height: 0.4rem;
+	margin: 0.25rem 8% 0.25rem 10%;
+	font-size: 0.28rem;
+	border: 0px;
+	width: 84%;
+}
+.applyOut ul li>input::-moz-placeholder{
+	color: #888888;
+}
+.applyOut ul li>input::-ms-input-placeholder{
+	color: #888888;
+}
+.applyOut ul li>input::-webkit-input-placeholder{
+	color: #888888;
+}
+.applyOut ul li.txt{
+	width: 100%;
+	height: 2.4rem;
+	background: none;
+	margin-bottom: 0px;
+}
+.applyOut ul li textarea{
+	width: 88%;
+	text-align: justify;
+	display: block;
+	margin: 0.25rem auto;
+	height: 1.9rem;
+	line-height: 0.4rem;
+	border: 0px;
+	font-size: 0.28rem;
+	resize: none;
+}
+.applyOut ul li textarea::-moz-placeholder{
+	color: #888888;
+}
+.applyOut ul li textarea::-ms-input-placeholder{
+	color: #888888;
+}
+.applyOut ul li textarea::-webkit-input-placeholder{
+	color: #888888;
+}
+.applyOut ul li.choice textarea::-ms-input-placeholder{
+	color: #1471c2;
+}
+.applyOut ul li.choice textarea::-webkit-input-placeholder{
+	color: #1471c2;
+}
+.applyOut ul li.choice textarea::-moz-placeholder{
+	color: #1471c2;
+}
+.applyOut ul li.flieBox{
+	height: 1.2rem;
+	border: 0;
+	background: none;
+	margin-bottom: 0px;
+	position: relative;
+}
+.applyOut ul li.submit{
+	margin-bottom: 0px;
+	border: 0;
+}
+.applyOut ul li.submit input{
+	margin: 0 ;
+	width: 100%;
+	height: 100%;
+	border: 0;
+	color: white;
+	background: #1471c2;
+	font-size: 0.36rem;
+}
+.applyOut ul li.flieBox p{
+	font-size: 0.28rem;
+	color: #888888;
+	line-height: 1.2rem;
+}
+.applyOut ul li.flieBox .file{
+	position: absolute;
+	top:0.3rem;
+	width: 1.6rem;
+	height: 0.6rem;
+	left: 1.3rem;
+	border: 1px solid #b7dbfa;
+	background-color: #ebf6ff;
+	color: #1471c2;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.6rem;
+	margin-top: -1px;
+}
+.applyOut ul li.flieBox .file input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+.fileName{
+	position: absolute;
+	font-size: 0.24rem;
+	top: 0.3rem;
+	line-height: 0.6rem;
+	left: 56%;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	width: 44%;
+}
+.applyTitle{
+	width: 1.8rem;
+	text-align: center;
+	margin: 0 auto 0.6rem;	
+	position: relative;
+	position: relative;
+}
+.applyTitle::before{
+	content: "";
+	position: absolute;
+	width: 0.9rem;
+	top: 50%;
+	right: 100%;
+	margin-top: -0.5px;
+	border-bottom: 1px solid #1471c2;
+}
+.applyTitle::after{
+	content: "";
+	position: absolute;
+	width: 0.9rem;
+	top: 50%;
+	left: 100%;
+	margin-top: -0.5px;
+	border-bottom: 1px solid #1471c2;
+}
+.applyTitle p:nth-child(1){
+		font-size: 0.36rem;
+		color: #1471c2;
+	}
+.applyTitle	p:nth-child(2){
+		font-size: 0.18rem;
+		color: #1471c2;
+	}
+	.closeJoin{
+		position: absolute;
+		width: 0.24rem;
+		right: 0.3rem;
+		top: 0.3rem;
+	}
+	.closeJoin img{
+		width: 100%;
+	}
 /*# sourceMappingURL=join.css.map */
